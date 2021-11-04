@@ -1,0 +1,30 @@
+.address {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-title-color);
+}
+.footer {
+  background-color: #2f303a;
+}
+.footer-contact {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.46;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-container {
+  display: block;
+  display: flex;
+}
+.footer-item__link {
+  margin-top: 9px;
+  order: -1;
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 66px;
+}

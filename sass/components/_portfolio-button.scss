@@ -1,0 +1,38 @@
+.button-prof {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
+  background-color: #f5f4fa;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
+  margin-bottom: 50px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 4px;
+  &:hover,
+  &:active {
+    color: var(--button-text-color);
+    background-color: var(--accent-color);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+}
+
+.button-list {
+  display: block;
+  display: flex;
+  margin-left: auto;
+  justify-content: center;
+}
+.btn-item {
+  margin-right: 9px;
+}
+.portfolio-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
