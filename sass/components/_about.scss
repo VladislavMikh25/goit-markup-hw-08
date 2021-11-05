@@ -1,39 +1,77 @@
+.main-list {
+  margin: 0 auto;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -30px;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
+}
 .title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--secondary-title-color);
 }
+.list-title {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  width: 270px;
+  display: block;
+  @media screen and (min-width: 768px) {
+    text-align: start;
+  }
+  @media screen and (min-width: 1200px) {
+    text-align: start;
+  }
+}
 .main-text {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
-}
-.main-list {
-  margin: 0 auto;
-  display: flex;
-  flex-basis: 1200px;
+  width: 450px;
+  flex-grow: 1;
+  @media screen and (min-width: 768px) {
+    width: 354px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+  }
 }
 .main-list__item {
-  width: 270px;
   flex-grow: 1;
   &:not(:last-child) {
-    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 354px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 270px;
   }
 }
 .main-icon {
   width: 70px;
   height: 70px;
   margin-top: 25px;
-  margin-left: 100px;
+  margin-left: 190px;
+  @media screen and (min-width: 768px) {
+    margin-left: 142px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: 100px;
+  }
 }
+
 .main-list__icon {
-  display: block;
-  width: 270px;
+  width: 450px;
   height: 120px;
   border: 1px;
   display: block;
@@ -41,13 +79,19 @@
   background-color: #f5f4fa;
   justify-content: center;
   align-items: center;
+  @media screen and (min-width: 768px) {
+    width: 355px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+  }
 }
-
-.list-title {
-  padding-bottom: 10px;
-}
-
 .main-list-section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.main-container {
+  margin-right: 15px;
+  margin-left: 15px;
 }
