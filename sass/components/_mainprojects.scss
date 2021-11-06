@@ -1,4 +1,9 @@
 .project-section {
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+.project-section {
   padding-bottom: 94px;
 }
 .project-section__title {

@@ -1,19 +1,39 @@
 @import "./utils/vars";
+
 @import "./base/reset";
+
 @import "./base/common";
+
 @import "./components/sitelogo";
+
 @import "./components/header";
+
+@import "./components/mobile-menu";
+
 @import "./components/contact";
+
 @import "./components/hero";
+
 @import "./components/about";
+
 @import "./components/mainprojects";
+
 @import "./components/team";
+
 @import "./components/team-links";
+
 @import "./components/clients";
+
 @import "./components/footer-logo";
+
 @import "./components/footer-form";
+
 @import "./components/footer-social";
+
 @import "./components/footer-contact";
+
 @import "./components/modal";
+
 @import "./components/portfolio-button";
+
 @import "./components/projects";

@@ -26,10 +26,21 @@
   background-color: var(--accent-color);
 }
 .header-container {
+  width: 480px;
   display: flex;
   align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
 }
 .header-section {
   border-bottom: 1px solid #ececec;
@@ -40,6 +51,14 @@
   align-items: center;
 }
 .site-nav__list {
-  display: flex;
-  align-items: center;
+  display: none;
+  @media screen and (min-width: 768px) {
+    width: 294px;
+    display: flex;
+    align-items: center;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+  }
 }

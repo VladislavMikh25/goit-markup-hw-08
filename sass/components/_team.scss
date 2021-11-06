@@ -58,11 +58,11 @@
   color: var(--secondary-title-color);
 }
 
-@media screen and (min-width: 1200px) {
-  background-image: url(../images/team-1-mob.jpg);
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    background-image: url(../images/team-1-mob-2x.jpg);
-  }
-}
+// @media screen and (min-width: 1200px) {
+//   background-image: url(../images/team-1-mob.jpg);
+//   @media (min-device-pixel-ratio: 2),
+//     (min-resolution: 192dpi),
+//     (min-resolution: 2dppx) {
+//     background-image: url(../images/team-1-mob-2x.jpg);
+//   }
+// }
