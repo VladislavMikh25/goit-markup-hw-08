@@ -1,4 +1,6 @@
 .address {
+  width: 232px;
+  height: 21px;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -16,8 +18,10 @@
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-container {
-  display: block;
-  display: flex;
+  @media screen and (min-width: 1200px) {
+    display: block;
+    display: flex;
+  }
 }
 .footer-item__link {
   margin-top: 9px;
@@ -25,6 +29,5 @@
 }
 
 .footer {
-  padding-top: 60px;
-  padding-bottom: 66px;
+  margin-top: 60px;
 }

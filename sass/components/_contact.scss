@@ -15,6 +15,7 @@
 }
 
 .contact-list__link {
+  display: inline-flex;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -32,7 +33,7 @@
 .contact-list {
   display: none;
   @media screen and (min-width: 768px) {
-    margin-left: auto;
+    margin: auto;
     width: 123px;
     display: block;
   }
