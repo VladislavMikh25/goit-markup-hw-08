@@ -15,11 +15,17 @@
 .projects-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
   margin-bottom: -30px;
+  @media screen and (min-width: 768px) {
+    margin-left: -30px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: -30px;
+  }
 }
 
 .project-item {
+  width: 450px;
   border-bottom: 1px;
   margin-left: 30px;
   margin-bottom: 30px;
@@ -31,6 +37,12 @@
   }
   &:hover .top-project-text {
     transform: translateY(0);
+  }
+  @media screen and (min-width: 768px) {
+    width: 354px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 370px;
   }
 }
 
@@ -46,9 +58,15 @@
 .project-container {
   display: block;
   margin: 0 auto;
-  width: 100%;
+  width: 480px;
   padding-right: 15px;
   padding-left: 15px;
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
 }
 .projects-list {
   list-style: none;
