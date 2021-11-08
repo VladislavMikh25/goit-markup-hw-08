@@ -1284,12 +1284,19 @@ body {
 }
 
 .modal {
-  width: 528px;
-  min-height: 581px;
+  width: 450px;
+  min-height: 609px;
   background-color: #ffffff;
   border-radius: 4px;
   position: relative;
   padding: 40px;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    min-height: 581px;
+  }
 }
 
 .backbox.is-hidden {
@@ -1313,7 +1320,7 @@ body {
 .close-btn {
   position: absolute;
   top: 8px;
-  left: 490px;
+  left: 412px;
   width: 30px;
   height: 30px;
   margin: 0;
@@ -1330,6 +1337,13 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   border: 1px solid #2196f3;
+}
+
+@media screen and (min-width: 1200px) {
+  .close-btn {
+    top: 8px;
+    left: 490px;
+  }
 }
 
 .close-svg {
@@ -1356,15 +1370,17 @@ body {
   position: relative;
 }
 
-.user-coment-form {
-  width: 448px;
-  min-height: 138px;
-}
-
 .modal-form-item {
   display: block;
-  width: 448px;
+  width: 370px;
   height: 58px;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal-form-item {
+    width: 448px;
+    height: 58px;
+  }
 }
 
 .modal-title {
@@ -1425,6 +1441,13 @@ body {
   margin-bottom: 20px;
 }
 
+@media screen and (min-width: 1200px) {
+  .user-coment-form {
+    width: 448px;
+    min-height: 138px;
+  }
+}
+
 .text-area {
   width: 100%;
   height: 120px;
@@ -1434,7 +1457,6 @@ body {
   padding: 12px 16px;
   resize: none;
   width: 100%;
-  height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
@@ -1499,15 +1521,23 @@ body {
 }
 
 .checkbox-text {
-  display: flex;
+  display: block;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 1.2;
+  font-size: 12px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   color: #757575;
   cursor: pointer;
   padding-left: 12px;
+}
+
+@media screen and (min-width: 1200px) {
+  .checkbox-text {
+    display: flex;
+    font-size: 14px;
+    line-height: 1.2;
+  }
 }
 
 .checkbox-text span {
@@ -1515,7 +1545,7 @@ body {
   height: 15px;
   border-radius: 3px;
   border: 2px solid #212121;
-  margin-right: 9px;
+  margin-right: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1524,6 +1554,12 @@ body {
 .modal-checkbox:checked + .checkbox-text span {
   background-color: #2196f3;
   border: none;
+}
+
+.checkbox-text-span {
+  left: 32px;
+  display: block;
+  position: absolute;
 }
 
 .button-prof {
