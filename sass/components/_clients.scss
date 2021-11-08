@@ -1,11 +1,10 @@
 .clients-container {
   width: 100%;
+  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
   justify-content: center;
   align-items: center;
-}
-.clients-section {
   @media screen and (min-width: 768px) {
     max-width: 768px;
   }
@@ -78,9 +77,6 @@
   justify-content: center;
   align-items: center;
   flex-basis: calc(100% / 2);
-  @media screen and (min-width: 768px) {
-    width: 768px;
-  }
   @media screen and (min-width: 1200px) {
     width: 1200px;
     display: flex;

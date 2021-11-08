@@ -856,6 +856,7 @@ body {
 
 .clients-container {
   width: 100%;
+  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
   justify-content: center;
@@ -863,13 +864,13 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .clients-section {
+  .clients-container {
     max-width: 768px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .clients-section {
+  .clients-container {
     max-width: 1200px;
   }
 }
@@ -955,12 +956,6 @@ body {
   justify-content: center;
   align-items: center;
   flex-basis: calc(100% / 2);
-}
-
-@media screen and (min-width: 768px) {
-  .clients-list {
-    width: 768px;
-  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1245,6 +1240,7 @@ body {
 
 .footer {
   width: 100%;
+  margin: 0 auto;
   background-color: #2f303a;
 }
 
