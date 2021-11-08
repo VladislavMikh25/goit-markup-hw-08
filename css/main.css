@@ -855,10 +855,23 @@ body {
 }
 
 .clients-container {
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .clients-section {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .clients-section {
+    max-width: 1200px;
+  }
 }
 
 .clients-link__icon {
@@ -946,7 +959,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .clients-list {
-    width: 100%;
+    width: 768px;
   }
 }
 
@@ -1082,6 +1095,10 @@ body {
   }
 }
 
+.footer-item-addres {
+  width: 231px;
+}
+
 .footer-social-list__item + .footer-social-list__item {
   margin-left: 10px;
 }
@@ -1137,8 +1154,6 @@ body {
 
 @media screen and (min-width: 1200px) {
   .footer {
-    padding-top: 60px;
-    padding-bottom: 66px;
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;

@@ -1,16 +1,17 @@
 .clients-container {
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   justify-content: center;
   align-items: center;
 }
 .clients-section {
-  // @media screen and (min-width: 768px) {
-  //   max-width: 100%;
-  // }
-  // @media screen and (min-width: 1200px) {
-  //   max-width: 100%;
-  // }
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+  }
 }
 
 .clients-link__icon {
@@ -78,7 +79,7 @@
   align-items: center;
   flex-basis: calc(100% / 2);
   @media screen and (min-width: 768px) {
-    width: 100%;
+    width: 768px;
   }
   @media screen and (min-width: 1200px) {
     width: 1200px;

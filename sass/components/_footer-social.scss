@@ -8,6 +8,9 @@
     height: 80px;
   }
 }
+.footer-item-addres {
+  width: 231px;
+}
 
 .footer-social-list__item + .footer-social-list__item {
   margin-left: 10px;
@@ -53,8 +56,6 @@
     width: 768px;
   }
   @media screen and (min-width: 1200px) {
-    padding-top: 60px;
-    padding-bottom: 66px;
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
