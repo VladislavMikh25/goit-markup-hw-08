@@ -8,6 +8,7 @@
   color: var(--primary-title-color);
 }
 .footer {
+  width: 100%;
   background-color: #2f303a;
 }
 .footer-contact {
@@ -18,9 +19,18 @@
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  @media screen and (min-width: 768px) {
+    width: 100%;
+  }
   @media screen and (min-width: 1200px) {
+    width: 100%;
     display: block;
     display: flex;
+    text-align: left;
+    flex-wrap: nowrap;
   }
 }
 .footer-item__link {
