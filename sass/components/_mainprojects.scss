@@ -50,3 +50,8 @@
   display: block;
   margin-right: 30px;
 }
+.project-list-img {
+  @media screen and (min-width: 1200px) {
+    width: 370px;
+  }
+}

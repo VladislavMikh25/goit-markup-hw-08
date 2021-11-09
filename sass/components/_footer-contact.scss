@@ -20,14 +20,15 @@
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-container {
+  padding-top: 60px;
+  padding-bottom: 60px;
   display: flex;
   text-align: center;
   justify-content: center;
   @media screen and (min-width: 768px) {
-    width: 100%;
   }
   @media screen and (min-width: 1200px) {
-    width: 100%;
+    width: 1200px;
     display: block;
     display: flex;
     text-align: left;
@@ -35,10 +36,6 @@
   }
 }
 .footer-item__link {
-  margin-top: 9px;
+  margin-top: 8px;
   order: -1;
-}
-
-.footer {
-  margin-top: 60px;
 }

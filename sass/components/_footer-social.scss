@@ -25,7 +25,6 @@
   align-items: center;
 }
 .footer-title {
-  height: 16px;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -65,10 +64,10 @@
   margin-top: 20px;
 }
 .footer-social-container {
-  padding-top: 65px;
-  text-align: center;
   margin-bottom: 60px;
+  text-align: center;
   @media screen and (min-width: 768px) {
+    margin: 0 auto;
     flex-wrap: wrap;
   }
   @media screen and (min-width: 1200px) {
@@ -92,17 +91,19 @@
   }
 }
 .footer-adress-list {
-  margin-bottom: 60px;
   @media screen and (min-width: 768px) {
+    margin-bottom: 60px;
     display: flex;
+  }
+  @media screen and (min-width: 1200px) {
+    margin: 0 auto;
   }
 }
 .footer-address-contact {
-  padding-top: 60px;
   margin-bottom: 60px;
   @media screen and (min-width: 768px) {
+    margin: 0 auto;
     margin-right: 165px;
-    margin-bottom: 60px;
   }
   @media screen and (min-width: 1200px) {
     margin: 0 auto;
